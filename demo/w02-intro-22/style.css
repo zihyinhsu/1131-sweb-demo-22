@@ -1,0 +1,26 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: monospace;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+} 
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #d0cfcf;
+    &:hover{
+        transform: translateY(-0.25rem);
+        transition-duration: 0.5s;
+    }
+}
