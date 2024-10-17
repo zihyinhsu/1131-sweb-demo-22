@@ -78,3 +78,9 @@ html,body{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+@media screen and (min-width:900px){
+    .blogs-center{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
