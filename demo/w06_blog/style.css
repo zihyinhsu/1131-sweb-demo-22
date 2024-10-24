@@ -92,7 +92,7 @@ html,body{
 }
 
 @media screen and (min-width:1300px){
-    .blog-center{
-        grid-template-columns: repeat(6,1fr);
+    .blogs-center{
+        grid-template-columns:repeat(6,1fr);
     }
 }
