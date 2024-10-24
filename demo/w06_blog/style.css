@@ -79,8 +79,20 @@ html,body{
     }
 }
 
-@media screen and (min-width:900px){
+@media screen and (min-width:992px){
     .blogs-center{
         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .blogs-center{
+        grid-template-columns:repeat(5,1fr);
+    }
+}
+
+@media screen and (min-width:1300px){
+    .blog-center{
+        grid-template-columns: repeat(6,1fr);
     }
 }
