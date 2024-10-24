@@ -1,3 +1,36 @@
 body{
     background-color: #f0f0f0;
+    margin:0;
+}
+
+.show-classDemo{
+    height:90vh;
+}
+
+li {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+}
+a {
+    text-decoration: none; 
+    color: inherit; 
+    padding: 0 12px;
+    &:hover{
+        color: #118c54;
+        font-weight: bold;
+    }
+}
+iframe {
+    border:none;
+}
+.nav-center{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20px;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    .nav-link{
+        display: flex;
+    }
 }
