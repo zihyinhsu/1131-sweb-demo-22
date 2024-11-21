@@ -244,7 +244,7 @@ ul {
 }
 
 .nav {
-  background-color: var(--grey-3);
+  background-color: var(--white);
   box-shadow: var(--shadow-2);
   line-height: 1;
 }
@@ -265,12 +265,27 @@ ul {
 .nav-toggle:hover {
   transform: rotate(90deg);
 }
-
-.logo {
+.nav .logo {
   margin-bottom: 0;
 }
-.logo span {
+.nav .logo span {
   color: var(--primary-500);
+}
+.nav .social-icons {
+  display: none;
+}
+.nav a {
+  color: var(--grey-700);
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  display: block;
+  letter-spacing: var(--letterSpacing);
+  transition: var(--transition);
+}
+.nav a:hover {
+  background-color: var(--primary-300);
+  color: var(--primary-500);
+  padding-left: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
