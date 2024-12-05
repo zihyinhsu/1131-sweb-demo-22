@@ -1,0 +1,64 @@
+.tictactoe {
+  background: #666;
+  font-family: Arial, Helvatia, sans-serif;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding-bottom: 40px;
+}
+.tictactoe h2 {
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+.tictactoe .board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.tictactoe .board li {
+  margin: 10px;
+  width: 90px;
+  height: 70px;
+  font-size: 40px;
+  font-weight: 800;
+  background-color: #333;
+  color: #ccc;
+  list-style: none;
+  text-align: center;
+  border-radius: 5px;
+}
+.tictactoe .board li:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+.tictactoe .board .x {
+  color: #fd2222;
+}
+.tictactoe .board .o {
+  color: #208427;
+}
+.tictactoe .board .plus {
+  color: #ffffff;
+}
+.tictactoe footer {
+  display: block;
+  text-align: center;
+  padding: 15px;
+}
+.tictactoe .resetBtn {
+  background-color: #444;
+  color: #fff;
+  padding: 15px;
+  width: 75%;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.tictactoe .resetBtn:hover {
+  cursor: pointer;
+  background-color: #000;
+}
+
+/*# sourceMappingURL=tictactoe.css.map */

@@ -12,13 +12,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/tictactoe.css">
     <title>Tictactoe</title>
 </head>
 <body>
-  <div class="nav navbar-fixed">
+  <div class="nav">
       <div class="nav-center">
           <div class="nav-header">
-              <h4 class="logo">Midterm Zihyin hsu <span>913410022</span></h4>
+              <h4 class="logo">Zihyin hsu <span>913410022</span></h4>
               <button type="button" class="nav-toggle">
                   <i class="fas fa-bars"></i>
               </button>
@@ -49,9 +50,25 @@
           </ul>
       </div>
   </div>
-
-
-  <section class="show-midterm-answer"></section>
+  <section class="tictactoe">
+    <header>
+      <h2>TicTacToe</h2>
+    </header>
+    <ul class="board">
+      <li class="x">X</li>
+      <li class="o">O</li>
+      <li class="x">X</li>
+      <li class="o">O</li>
+      <li class="o">O</li>
+      <li class="x">X</li>
+      <li class="plus">+</li>
+      <li class="o">O</li>
+      <li class="plus">+</li>
+    </ul>
+    <footer>
+      <button type="button" class="resetBtn">Reset Game</button>
+    </footer>
+  </section>
 </body>
 <script src="./js/main.js"></script>
 </html>

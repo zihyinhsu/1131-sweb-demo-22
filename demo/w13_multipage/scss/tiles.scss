@@ -1,9 +1,10 @@
 .tiles{
     padding: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
     &-center{
-        // width:90vw;
+        width:90vw;
         display:grid;
+        margin: 0 auto;
         grid-template-columns: repeat(4,1fr);
         grid-template-rows: repeat(5,12.5rem);
         gap:1rem;
