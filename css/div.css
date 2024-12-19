@@ -81,4 +81,12 @@
   grid-area: footer;
 }
 
+@media screen and (max-width: 550px) {
+  .div_container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 1fr 2fr 0.4fr;
+    grid-template-areas: "logo" "header" "article" "aside" "footer";
+  }
+}
+
 /*# sourceMappingURL=div.css.map */

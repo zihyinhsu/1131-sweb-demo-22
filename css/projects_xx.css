@@ -1,0 +1,18 @@
+.projects {
+  width: 90%;
+  margin: 0 auto;
+}
+.projects .section-title {
+  text-align: center;
+  margin: 2rem;
+}
+.projects .section-title h2 {
+  text-transform: capitalize;
+}
+.projects-text {
+  width: 80%;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=projects_xx.css.map */
