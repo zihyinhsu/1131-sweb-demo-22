@@ -22,5 +22,9 @@ function showClassDemo(item) {
       p.innerHTML = `<iframe src="../demo/w13_multipage/index.html" width="100%"
             height="100%" />`
       break
+    case 'final_22':
+      p.innerHTML = `<iframe src="../exam/final1_22/final_p1_22.html" width="100%"
+            height="100%" />`
+      break
   }
 }
