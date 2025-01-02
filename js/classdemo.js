@@ -23,7 +23,7 @@ function showClassDemo(item) {
             height="100%" />`
       break
     case 'final_22':
-      p.innerHTML = `<iframe src="../exam/final1_22/final_p1_22.html" width="100%"
+      p.innerHTML = `<iframe src="../exams/final1_22/final_p1_22.html" width="100%"
             height="100%" />`
       break
   }
